@@ -35,6 +35,9 @@ dependencies:
   sqflite: 2.4.1
   path: 1.9.0
   path_provider: 2.1.5
+  action_slider: 0.7.0
+  connectivity_plus: 6.1.1
+  geolocator: 13.0.2
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.

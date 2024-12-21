@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_offline_first/screens/segunda-tela/tela_secundaria.dart';
 import 'package:mask_text_input_formatter/mask_text_input_formatter.dart';
 
 class Forms extends StatefulWidget {
@@ -66,6 +67,10 @@ class _FormsState extends State<Forms> {
               onPressed: () {
                 print("RA digitado: ${maskFormatter.getMaskedText()}");
                 print("Senha digitada: ${_controller.text}");
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => const TelaSecundaria())
+                );
               },
               style: ButtonStyle(
                 foregroundColor: WidgetStateProperty.all(Colors.white),
